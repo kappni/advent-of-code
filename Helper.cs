@@ -23,7 +23,7 @@ public static class AOCHelper
         using (var stream = streamProvider())
         using (var reader = new StreamReader(stream))
         {
-            string line;
+            string? line;
             while ((line = reader.ReadLine()) != null)
             {
                 lines.Add(line);
