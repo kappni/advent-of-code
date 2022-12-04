@@ -4,7 +4,6 @@ public class Day4 : IDay
     public async Task<string> Execute1()
     {
         IEnumerable<string> lines = await AOCHelper.GetFile("4");
-        Console.WriteLine(lines.Count());
         int counter = 0;
         foreach (string line in lines)
         {
@@ -20,7 +19,6 @@ public class Day4 : IDay
     public async Task<string> Execute2()
     {
         IEnumerable<string> lines = await AOCHelper.GetFile("4");
-        Console.WriteLine(lines.Count());
         int counter = 0;
         foreach (string line in lines)
         {
