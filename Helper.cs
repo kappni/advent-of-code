@@ -1,5 +1,3 @@
-using System.Text;
-
 public static class AOCHelper
 {
     private static readonly HttpClient client = new HttpClient();
