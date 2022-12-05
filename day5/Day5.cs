@@ -45,7 +45,7 @@ public class Stack
             IEnumerable<char?> chars = splitAfter4Chars(line);
             foreach (int i in Range(0, 9))
             {
-                if (chars.ElementAt(i).HasValue) stacks.ElementAt(i).Add(chars.ElementAt(i).Value);
+                if (chars.ElementAt(i).HasValue) stacks.ElementAt(i).Add(chars.ElementAt(i)!.Value);
             }
         }
     }
