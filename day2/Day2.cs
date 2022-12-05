@@ -1,4 +1,3 @@
-// See https://aka.ms/new-console-template for more information
 public class Day2 : IDay
 {
     public async Task<string> Execute1()
